@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Contact Details</title>
+    <link rel="icon" href="Contact-logo.png">
+
+    <style>
+
+       body{
+           background-color: #eeeeee;
+       }
+
+       fieldset{
+                 margin-top: 80px;
+                 margin-left: 70px;
+                 margin-right: 70px;
+       }
+        #one{
+            margin: 80px;
+        }
+
+        a{  
+             border: 2px solid rgba(150, 134, 134, 0.925);
+             text-decoration: none;
+             color: rgba(43, 46, 226, 0.781);
+        }
+        a:hover{
+             color: red;
+        }
+       </style>
+
+</head>
+<body >
+
+    
+        
+
+<form action="">
+
+                
+<fieldset>
+            <legend>Your Details</legend>
+                   
+       <div id="one">
+                    <label for="name">Enter your name :</label>                        
+                    <input type="text" id="name" name="name"placeholder="James Gosling" ><br><br>
+
+                    <label for="age">Enter your age :</label>                         
+                    <input type="number" id="age" name="age"><br><br>
+
+                <label for="Mb.no">Enter your contact number :</label>
+               <input type="number" id="Mb.no" name="Mb.no"  required pattern="[6-9]{1} [0-9]{9}" placeholder="699XXXXX87"><br><br>
+
+    <label for="email">Enter your email id:</label>              
+   <input type="email" id="email" name="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+   placeholder="xyz@gmail.com"><br><br>
+
+                        <label for="purpose">Enter your purpose for contacting me :</label> 
+                       <input type="text" id="purpose" name="purpose"  required 
+                       placeholder="what is your requirement?"><br><br>
+                  
+                
+                    
+                      
+                      <a href="msg.html">submit</a>
+
+            </div> 
+
+
+    </fieldset>
+
+           
+    </form>
+
+</body>
+</html>
